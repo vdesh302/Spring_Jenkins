@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DemoApplication {
 	
-	 Logger logger=LoggerFactory.getLogger(DemoApplication.class); 
+	public static Logger logger=LoggerFactory.getLogger(DemoApplication.class); 
 	
 	@PostConstruct
 	public void init()
